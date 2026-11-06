@@ -174,6 +174,14 @@ blockquote p:first-child{color:var(--gold-light);font-weight:600}
 .contact-note{margin-top:28px;padding:20px 22px;border:1px solid rgba(212,166,42,.4);border-radius:var(--radius);background:rgba(212,166,42,.06)}
 .contact-note strong{font-family:var(--display);color:var(--gold-light);letter-spacing:.06em}
 .contact-note p{color:var(--muted);font-size:.9rem;margin-top:4px}
+.contact-person{margin-top:20px;padding:20px 22px;border:1px solid rgba(212,166,42,.4);border-radius:var(--radius);background:rgba(212,166,42,.06)}
+.contact-person .eyebrow{margin-bottom:6px}
+.contact-person h3{font-family:var(--display);color:var(--gold-light);font-size:1.15rem;letter-spacing:.04em;margin-bottom:12px}
+.contact-person ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.contact-person li{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;font-size:.95rem}
+.contact-person li span{min-width:52px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.contact-person a{color:var(--text);text-decoration:none;border-bottom:1px solid rgba(212,166,42,.5);overflow-wrap:anywhere}
+.contact-person a:hover,.contact-person a:focus-visible{color:var(--gold-light);border-color:var(--gold-light)}
 .card-form{background:linear-gradient(160deg,var(--black-3),var(--black));border:1px solid rgba(212,166,42,.4);border-radius:var(--radius);padding:34px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
 .form-fields{display:flex;flex-direction:column;gap:18px}
 .form-fields[hidden],.form-success[hidden],.form-error[hidden]{display:none}
